@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML file example</title>
+
+    <link rel="stylesheet" href="01_CSS_external.css">
+    <!-- external css -->
+    <!-- internal css -->
+    <style>
+        body {
+            background-color: grey;
+        }
+        
+        h1 {
+            font-family: Arial, Helvetica, sans-serif
+        }
+        
+        h2 {
+            font-family: 'Times New Roman', Times, serif
+        }
+    </style>
+    <!-- /internal css -->
+</head>
+
+<body>
+    <h1>This is heading 1</h1>
+    <h2>This is heading 2</h2>
+    <h3 id="head3id">This is heading 3</h3>
+    <h4>This is heading 4</h4>
+    <h5>This is heading 5</h5>
+    <h6><em>This is heading 6</em></h6>
+    <!--Block-level element can contain inline element. An inline element cannot contain a block-level element. -->
+    <hr>
+    <p>Paragraph 1</p>
+    <p style="color:blue;">Paragraph 2 is blue.</p>
+    <!-- inline style -->
+    <p style="font-size:50px;">Paragraph 3 is big.</p>
+    <!-- inline style -->
+    <hr>
+    <a href="https://www.ispgaya.pt">Hyperlink to ISPGaya website</a>
+    <hr>
+    <img src="img_girl.jpg" width="500" height="600" alt="ISPGaya Logo">
+    <hr>
+    <table>
+        <tr>
+            <th>Programme</th>
+            <th>Student</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Computer Science</td>
+            <td>Maria Ribeiro</td>
+            <td>Portugal</td>
+        </tr>
+        <tr>
+            <!-- td tag is replaced by colspan from the row above-->
+            <td>Francisco Silva</td>
+            <td>Brasil</td>
+        </tr>
+        <tr>
+            <td>Computer Science for Management</td>
+            <td>Mark Allen</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>Computer Science for Management</td>
+            <td>Yin Chi</td>
+            <td>China</td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <br>
+    <ul>
+        <li>Morning</li>
+        <li>Afternoon</li>
+        <li>Night</li>
+    </ul>
+    <ol>
+        <li>Morning</li>
+        <li>Afternoon</li>
+        <li>Night</li>
+    </ol>
+    <br>
+    <hr>
+    <br>
+    <div class="divbythree left">
+        Division 1
+    </div>
+    <div class="divbythree right">
+        Division 3
+    </div>
+    <div class="divbythree center">
+        Division 2
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="boxmodel">
+        This is a box which fits to the display.
+    </div>
+</body>
+
+</html>
